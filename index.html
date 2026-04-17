@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universul Ciocolatei</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/loader.css">
+    <link rel="icon" href="/img/chocolate.png">
+    <!-- 🔥 IMPORTANTANȚA CU FUNCȚIONĂRILE LA SITE -->
+    <script src="js/main.js" defer></script>
+
+</head>
+
+<body>
+    <!-- loader -->
+
+    <div class="container">
+        <div class="wrapper">
+            <div class="loader">
+                <div class="dot"></div>
+            </div>
+            <div class="loader">
+                <div class="dot"></div>
+            </div>
+            <div class="loader">
+                <div class="dot"></div>
+            </div>
+            <div class="loader">
+                <div class="dot"></div>
+            </div>
+            <div class="loader">
+                <div class="dot"></div>
+            </div>
+            <div class="loader">
+                <div class="dot"></div>
+            </div>
+        </div>
+        <div class="text">
+            Bine ați venit la sit-ul nostru!
+        </div>
+    </div>
+
+
+    <!-- HEADER -->
+    <header>
+        <div class="header-container">
+
+            <a href="#acasa" class="logo">
+                <img src="/img/dark-chocolate.png" alt="Logo">
+                <h2>Site despre ciocolată</h2>
+            </a>
+
+            <nav id="nav">
+                <a href="#acasa">🏠 Acasă</a>
+                <a href="#tipuri">🍫 Tipuri</a>
+                <a href="#producere">🏭 Producere</a>
+                <a href="#contact">📱 Contact</a>
+            </nav>
+
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="acasa">
+
+        <div class="slider">
+
+            <!-- SLIDE 1 -->
+            <div class="slide active">
+                <img src="/img/ceocolata alba.jpg" alt="img">
+            </div>
+
+            <!-- SLIDE 2 -->
+            <div class="slide">
+                <img src="/img/ceocolata cafenie.webp" alt="img">
+            </div>
+
+            <!-- SLIDE 3 -->
+            <div class="slide">
+                <img src="/img/ceocolata neagra.jpg" alt="img">
+            </div>
+
+            <!-- SLIDE 4 -->
+            <div class="slide">
+                <img src="/img/stickam cu ciocolata.jpg" alt="img">
+            </div>
+
+        </div>
+
+        <!-- TEXT FIX (NU SE SCHIMBĂ) -->
+        <div class="hero-content">
+            <h2>Bine ați venit în lumea ciocolatei</h2>
+            <p>Descoperă cele mai delicioase tipuri de ciocolată din lume.</p>
+        </div>
+
+    </section>
+
+    <!-- TIPURI -->
+    <section id="tipuri">
+
+        <h2>Tipuri de Ciocolată:</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <img src="img/ceocolata alba.jpg">
+                <h1 align="center">Ciocolată Albă</h1>
+                <p>Nu conține cacao solidă, doar unt de cacao + lapte + zahăr
+                    Gust dulce și foarte cremos
+                    Nu are antioxidanți din cacao
+                    Folosită mult în deserturi și decoruri</p>
+            </div>
+
+            <div class="card">
+                <img src="img/ceocolata cafenie.webp">
+                <h1 align="center">Ciocolată cu Lapte</h1>
+                <p>Conține cacao + lapte + zahăr
+                    Gust dulce și cremos
+                    Mai puțină cacao decât cea neagră
+                    Populară la copii și adulți pentru gustul delicat</p>
+            </div>
+
+            <div class="card">
+                <img src="/img/ceocolata neagra.jpg">
+                <h1 align="center">Ciocolată Neagră<h1>
+                        <p>Conține cacao pur (minim 50-70%)
+                            Are gust intens și amarui
+                            Este bogată în antioxidanți
+                            Beneficii: stimulează creierul și inima</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- VIDEO -->
+    <section id="video" class="video-section">
+        <h2>Descoperă Ciocolata în Acțiune</h2>
+
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/VkzuQ5lFGlQ"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+            <div class="video-overlay">
+                <p>Deliciul ciocolatei în fiecare moment</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCERE -->
+    <section id="producere">
+        <h2>Producerea Ciocolatei:</h2>
+
+        <p class="text">
+            Producerea ciocolatei implică transformarea boabelor de cacao prin etape esențiale: recoltare, fermentare,
+            uscare, prăjire, măcinare (până la obținerea pastei de cacao), conșare (rafinarea aromei și texturii) și
+            temperare. Ingredientele de bază—pasta de cacao, untul de cacao și zahărul—sunt amestecate, temperat pentru
+            luciu și textură, apoi turnate în forme.
+        </p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>Contactează-ne dacă:</h2>
+
+        <div class="contact-container">
+
+            <form class="contact-form">
+                <input type="text" placeholder="Numele tău" required>
+                <input type="tel" placeholder="Numărul tău de telefon" required>
+                <input type="email" placeholder="Emailul tău" required>
+                <div class="rating-container">
+                    <span class="rating-text">Apreciază site-ul:</span>
+                    <div class="stars">
+                        <span class="star" data-value="1">&#9733;</span>
+                        <span class="star" data-value="2">&#9733;</span>
+                        <span class="star" data-value="3">&#9733;</span>
+                        <span class="star" data-value="4">&#9733;</span>
+                        <span class="star" data-value="5">&#9733;</span>
+                    </div>
+                    <div class="rating-result">0/5</div>
+                </div>
+                <textarea placeholder="Scrie un comentariu" required></textarea>
+                <button type="submit">Trimite mesajul</button>
+            </form>
+
+            <div class="contact-info">
+                <h3>Țineți datele de contact:</h3>
+                <p>📞 Numărul de telefon: +373 423 786 212</p>
+                <p>✉️ Adresa de e-mail: egodi779@gmail.com</p>
+                <p>📍 Strada(de la Chișinău): Burebista 78</p>
+            </div>
+        </div>
+    </section>
+
+
+    <h1 align="center">Țineți o hartă unde se află ciocolată în Chișinău:</h1>
+    <section class="map-section">
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d165346.2238578085!2d28.555141668597074!3d47.05945569124797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97d6d462167e3%3A0x4f6c20b0d57f6d98!2sSweetland.%20Ciocolaterie.%20Cadouri%20corporative.%20Ciocolat%C4%83.%20Fabricat%20%C3%AEn%20Moldova!5e1!3m2!1sro!2s!4v1775217679028!5m2!1sro!2s"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+
+    <!-- BUTON BACK TO TOP -->
+    <button id="backToTop">🠕 Vrei sus?</button>
+
+    <footer>
+        <p>© Dimov Egor 2026</p>
+    </footer>
+
+</body>
+
+</html>
